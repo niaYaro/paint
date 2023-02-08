@@ -1,0 +1,111 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+@font-face {
+    font-family: "Segoeui";
+    src: url(fonts/segoeui.ttf);
+} */
+
+:root {
+    --upper-bg-color: #FEEDBC;
+    --first-text-color: #262626;
+    --second-text-color: #F9B800;
+    --third-text-color: #FFFFFF;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+div {
+    padding: 0;
+    margin: 0;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    padding: 0;
+    margin: 0;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+}
+h4 {
+    padding: 0;
+    margin: 0;
+}
+img {
+    padding: 0;
+    margin: 0;
+}
+section {
+    /* padding: 0 20px; */
+}
+select {
+    border: 0px;
+}
+button {
+    border: 0px;
+    background-color: var(--third-text-color);
+}
+.hidden {
+    display: none;
+    /* height: 0; */
+    transition: 1s;
+}
+.narrow {
+    height: 23px;
+    transition: 0.5s;
+}
+.expand {
+    height: 92px;
+    transition: 0.5s;
+}
+.global-wrapper-light {
+    /* position: relative;
+    z-index: -5; */
+    padding: 0;
+    padding-top: 50px;
+    background-color: var(--upper-bg-color);
+    max-width: 375px;
+    /* height: 1001px; */
+    overflow: hidden;
+    z-index: -2;
+}
+.text-pretitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--second-text-color);
+}
+.text-title {
+    line-height: 47px;
+    font-size: 27px;
+    font-weight: 700;
+}
+/* .image {
+    z-index: 0;
+    width: 375px;
+    height: 100px;
+} */
+.buttons {
+    cursor: pointer;
+    width: 100%;
+    margin: 26px 0 51px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 17px 40px;
+    border-radius: 75px;
+}

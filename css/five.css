@@ -1,0 +1,41 @@
+.five {
+    position: relative;
+    z-index: 15;
+}
+.five-image {
+    margin-top: 65px;
+    /* z-index: 15; */
+}
+.five-image img {
+    width: 350px;
+    padding: 0 16px 0 9px;
+}
+.five-text {
+    padding: 0 20px;
+    margin-top: -20px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* z-index: 15; */
+}
+.five-text-title {
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.five-text-button {
+    background-color: var(--first-text-color);
+    color: var(--third-text-color);
+    margin-top: 40px;
+    border: 3px solid var(--first-text-color);
+    /* margin-bottom: 122px; */
+}
+.five-text-button:hover {
+    border: 3px solid var(--third-text-color);
+    transition: 1s;
+}

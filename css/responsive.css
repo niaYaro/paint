@@ -1,0 +1,216 @@
+@media(min-width: 375px) {
+    /** common */
+    .global-wrapper-light {
+        margin: auto;
+        max-width: 1366px;
+        height: auto;
+    }
+    section {
+        padding: 0 160px;
+    }
+    button {
+        max-width: 350px;
+    }
+    /** header */
+    .logo {
+        margin: auto;
+    }
+    .header {
+        margin: 60px 160px 0 160px;
+    }
+    /** first */
+    .first {    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 50px 0 0 95px;
+    }
+    .first-image {
+        grid-column: 2 / 3;
+    }
+    .first-image img {
+        width: 460px;
+    }
+    .first-text {
+        grid-row: 1;
+    }
+    .first-text-check-box {
+        font-size: 10px;
+    }
+    .check-box-row {
+        display: flex;
+    }
+    .first-text-check {
+        margin-right: 10px;
+        padding: 5px 10px;
+    }
+    /** second */
+    .second {
+    }
+    .second-image {
+        margin: 170px 160px 0 255px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .second-image .image {
+        grid-column: 2 / 3;
+        width: 460px;
+        margin-top: -150px;
+    }
+    .second-text {
+        grid-row: 1;
+    }
+    .second-background {
+        display: none;
+    }
+    .second-background-middlescreen {
+        display: block;
+        position: absolute;
+        top: -200px;
+        left: -160px;
+    }
+    /** third */
+    .third {
+        margin-top: -300px;
+        padding: 270px 200px 190px 255px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .third-text-box {
+        padding: 200px 30px 0 0;
+    }
+    .third-list {
+        padding-left: 15px;
+    }
+    .third-list-mobile {
+        display: none;
+    }
+    .third-list-middlescreen {
+        display: flex;
+        gap: 30px;
+    }
+    .shift-down {
+        padding-top: 70px;
+    }
+    .list-middlescreen-column {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .third-list-item {
+        margin-bottom: 0;
+        max-width: 150px;
+        max-height: 200px;
+        padding: 30px;
+    }
+    .item-number {
+        font-size: 50px;
+        margin-top: 5px;
+        line-height: 45px;
+    }
+    .item-title {
+        padding: 0;
+        font-size: 15px;
+    }
+    /** fourth */
+    .fourth {
+        padding-bottom: 70px;
+    }
+    .fourth-background {
+        display: none;
+    }
+    .fourth-background-middlescreen {
+        display: block;
+        position: absolute;
+        left: 0px;
+        z-index: -5;
+    }
+    .fourth-background-middlescreen img {
+        height: 1230px;
+    }
+    .feedback {
+        display: flex;
+        align-items: flex-end;
+        height: 300px
+    }
+    .client-gallery {
+        margin-bottom: 30px;
+        width: 880px;
+    }
+    .feedback-title {
+        position: absolute;
+        width: 635px;
+        top: -23.5px;
+        left: 252px;
+        z-index: 10;
+    }
+    .feedback-gallery {
+        margin-bottom: 30px;
+        height: 200px;
+    }
+    /** fifth */
+    .five {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .five-image {
+        grid-column: 2 / 3;
+    }
+    .five-image img {
+        width: 460px;
+    }
+    .five-text {
+        padding-top: 150px;
+        grid-row: 1;
+    }
+    .five-text-check-row {
+        display: flex;
+    }
+    /** sixth */
+    .six {
+        padding: 0;
+        width: 1366px;
+    }
+    .six-background {
+        display: none;
+    }
+    .six-background-middlescreen {
+        display: block;
+        position: absolute;
+        top: -1000px;
+    }
+    .six-content {
+        padding: 270px 200px 190px 255px;
+    }
+    .accordion {
+        width: 100%;
+    }
+    .accordion .label {
+        width: 100%;
+    }
+    .accordion .content {
+        width: 800px;
+        padding-left: 30px;
+    }
+    /** footer */
+    .footer {
+        /* margin-top: 50px; */
+        padding: 50px 200px 80px 255px;
+        color: var(--first-text-color);
+    }
+    .footer-upper-part {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .footer-titl {
+        padding: 0 50px 0 0;
+    }
+    .footer-button {
+        margin: 0;
+    }
+    .footer-final-provisions {
+        display: flex;
+        justify-content: space-between;
+    }
+}
